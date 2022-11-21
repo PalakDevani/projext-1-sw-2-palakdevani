@@ -50,8 +50,8 @@ public class LoginTest extends Utility {
     }
 
     @After
-    public void testDown() {
-        // closeBrowser();
+    public void tearDown() {
+        closeBrowser();
     }
 }
 

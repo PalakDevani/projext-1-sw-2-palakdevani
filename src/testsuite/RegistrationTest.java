@@ -35,7 +35,7 @@ public class RegistrationTest extends Utility {
     }
 
     @After
-    public void testDown() {
+    public void tearDown() {
         closeBrowser();
     }
 

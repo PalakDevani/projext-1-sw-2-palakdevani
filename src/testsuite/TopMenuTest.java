@@ -83,7 +83,7 @@ public class TopMenuTest extends Utility {
     }
 
     @After
-    public void testDown() {
+    public void tearDown() {
         closeBrowser();
     }
 }
